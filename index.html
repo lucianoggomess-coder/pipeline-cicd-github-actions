@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto acadêmico de pipeline CI/CD com GitHub Actions e GitHub Pages">
+  <title>Pipeline CI/CD</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav><span class="brand">DevOps Lab</span><a href="#pipeline">Ver pipeline</a></nav>
+    <div class="hero-content">
+      <p class="eyebrow">Engenharia de Dados</p>
+      <h1>Integração e entrega contínuas na prática</h1>
+      <p>Uma aplicação estática validada e publicada automaticamente com GitHub Actions e GitHub Pages.</p>
+      <div class="status"><span aria-hidden="true"></span> Pipeline automatizada</div>
+    </div>
+  </header>
+
+  <main>
+    <section id="pipeline">
+      <p class="eyebrow">Fluxo automatizado</p>
+      <h2>Do código à publicação</h2>
+      <div class="steps">
+        <article><strong>01</strong><h3>Push</h3><p>Uma alteração é enviada à branch principal.</p></article>
+        <article><strong>02</strong><h3>Validação</h3><p>O workflow verifica arquivos, HTML e JavaScript.</p></article>
+        <article><strong>03</strong><h3>Artefato</h3><p>Os arquivos aprovados são preparados para publicação.</p></article>
+        <article><strong>04</strong><h3>Deploy</h3><p>O GitHub Pages recebe automaticamente a nova versão.</p></article>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><p class="eyebrow">Benefícios</p><h2>Qualidade e velocidade com rastreabilidade</h2></div>
+      <ul>
+        <li>Erros identificados antes da publicação</li>
+        <li>Processo repetível e documentado</li>
+        <li>Entrega automática após aprovação dos testes</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>Projeto acadêmico de DevOps e DataOps <span id="year"></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

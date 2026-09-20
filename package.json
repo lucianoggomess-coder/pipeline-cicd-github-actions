@@ -1,0 +1,9 @@
+{
+  "name": "pipeline-cicd-github-actions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto acadêmico de CI/CD com GitHub Actions e GitHub Pages",
+  "scripts": {
+    "test": "node tests/validate.js"
+  }
+}
